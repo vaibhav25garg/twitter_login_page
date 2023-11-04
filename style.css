@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+
+@tailwind utilities;
+
+@layer components{
+    .high{
+        @apply text-blue-500 hover:underline cursor-pointer;
+    }
+    .floot{
+        @apply hover:cursor-pointer hover:underline mr-3 my-5;
+    }
+}
